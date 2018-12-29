@@ -39,7 +39,7 @@ param (
 	[string]$ip
 )
 
-function GetIPGeolocation() {
+function Get-IPGeolocation() {
 
     param($ipaddress)
 
